@@ -19,7 +19,6 @@ class Stack:
     def serialize(self):
         return json.dumps(asdict(self), indent=4)
 
-
 stack = Stack()
 print(stack.serialize())
 ​
