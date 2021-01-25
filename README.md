@@ -1,6 +1,5 @@
-# Hello there 👋, I am Sagar Budhathoki
-<h2>A passionate Python developer and AI/ML enthusiast!</h2>
-<h3>
+<h1 align="center">Hi 👋, I'm Sagar Budhathoki</h1>
+<h3 align="center">A passionate Python developer and AI/ML enthusiast from Nepal</h3>
     
 ```python
 ​
@@ -28,8 +27,6 @@ print(stack.serialize())
 </h3>
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sbmagar&layout=compact)](https://github.com/sbmagar/github-readme-stats)
-<h1 align="center">Hi 👋, I'm Sagar Budhathoki</h1>
-<h3 align="center">A passionate Python developer and AI/ML enthusiast from Nepal</h3>
 
 <p align="left"> <a href="https://twitter.com/s_agarm_agar" target="blank"><img src="https://img.shields.io/twitter/follow/s_agarm_agar?logo=twitter&style=for-the-badge" alt="s_agarm_agar" /></a> </p>
 
