@@ -13,7 +13,7 @@ class Stack:
     DevOps      : tuple[str, ...] = ("AWS", "Docker", "Nginx", "Gunicorn", "supervisord")
     databases   : tuple[str, ...] = ("PostgreSQL", "Mongo", "Redis")
     AIML        : tuple[str, ...] = ("GAN", "sklearn", "Multiprocessing", "Model Development", "NLP..NLG..NLU" )
-    misc        : tuple[str, ...] = ("FFMPEG/LIVE555", "Matplotlib", "BS4", "Socket.IO", "Selenium", Scrapy)
+    misc        : tuple[str, ...] = ("FFMPEG/LIVE555", "Matplotlib", "BS4", "Socket.IO", "Selenium", "Scrapy")
     ongoing     : tuple[str, ...] = ("Django", "DRF", "Celery", "RabbitMQ", "AI-Chatbot", "NLP-NLU-NLG")
 
     def serialize(self):
