@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Sagar Budhathoki</h1>
-<h3 align="center">A passionate & hardworking Python developer and AI/ML enthusiast</h3>
+<h3 align="center">A passionate & hardworking Python developer, Cloud Engineer and AI/ML enthusiast</h3>
     
 ```python
 ​
