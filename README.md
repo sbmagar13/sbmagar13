@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Sagar Budhathoki</h1>
-<h3 align="center">A passionate & hardworking Python developer, Cloud Engineer and AI/ML enthusiast</h3>
+<h3 align="center">A passionate & hardworking DevOps/Python Engineer and AI/ML enthusiast</h3>
     
 ```python
 ​
@@ -10,8 +10,9 @@ from dataclasses import asdict, dataclass
 @dataclass
 class Stack:
     languages   : tuple[str, ...] = ("Python", "C..C++")
-    DevOps      : tuple[str, ...] = ("AWS", "AWS-CDK(python)", "Docker", "Nginx", "Gunicorn", "supervisord", "IaC=>Terraform")
+    DevOps      : tuple[str, ...] = ("AWS", "AWS-CDK(python)", "Docker", "Kubernetes", "Chef/Puppet", "IaC=>Terraform")
     databases   : tuple[str, ...] = ("PostgreSQL", "Mongo", "Redis")
+    CI/CD       : tuple[str, ...] = ("GitLab CI", "Jenkins", "GitHub Actions")
     AIML        : tuple[str, ...] = ("GAN", "sklearn", "Multiprocessing", "Model Development", "NLP..NLG..NLU" )
     misc        : tuple[str, ...] = ("FFMPEG/LIVE555", "Matplotlib", "BS4", "Socket.IO", "Selenium", "Scrapy")
     ongoing     : tuple[str, ...] = ("AWS/DevOps", "Django", "DRF", "Celery", "RabbitMQ", "AI-Chatbot", "RASA-NLU", "GAN")
