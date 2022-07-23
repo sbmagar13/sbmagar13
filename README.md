@@ -25,6 +25,8 @@ print(stack.serialize())
 ```
 </h3>
 
+<a href="https://app.daily.dev/DailyDevTips"><img src="https://github.com/sbmagar/sbmagar/blob/master/devcard.svg" width="400" alt="Sagar Budhathoki's Dev Card"/></a>
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sbmagar&layout=compact)](https://github.com/sbmagar/github-readme-stats)
 
 <h3 align="left">Connect with me:</h3>
