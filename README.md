@@ -38,7 +38,7 @@ print(stack.serialize())
         <a href="https://instagram.com/magarsagarbudhathoki" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="magarsagarbudhathoki" height="30" width="40" /></a>
         </p>
 
-<a href="https://app.daily.dev/DailyDevTips"><img src="https://github.com/sbmagar/sbmagar/blob/main/devcard.svg" width="400" alt="Sagar Budhathoki's Dev Card"/></a>
+<a href="https://app.daily.dev/sbmagar"><img src="https://github.com/sbmagar/sbmagar/blob/main/devcard.svg" width="400" alt="Sagar Budhathoki's Dev Card"/></a>
 
 
 <h3 align="left">Languages and Tools:</h3>
