@@ -10,7 +10,7 @@ from dataclasses import asdict, dataclass
 @dataclass
 class Stack:
     languages   : tuple[str, ...] = ("Python", "C..C++")
-    DevOps      : tuple[str, ...] = ("AWS", "AWS-CDK(python)", "Docker", "Kubernetes", "Chef/Puppet", "IaC=>Terraform")
+    DevOps      : tuple[str, ...] = ("AWS", "Docker", "Kubernetes", "Chef/Puppet", "Terraform", "AWS-CDK(python)",)
     databases   : tuple[str, ...] = ("PostgreSQL", "Mongo")
     CI/CD       : tuple[str, ...] = ("GitLab CI", "Jenkins", "GitHub Actions")
     AIML        : tuple[str, ...] = ("GAN", "sklearn", "RASA-Chatbot", "Model Development", "NLP..NLG..NLU" )
