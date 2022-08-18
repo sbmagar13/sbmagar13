@@ -13,9 +13,9 @@ class Stack:
     DevOps      : tuple[str, ...] = ("AWS", "AWS-CDK(python)", "Docker", "Kubernetes", "Chef/Puppet", "IaC=>Terraform")
     databases   : tuple[str, ...] = ("PostgreSQL", "Mongo")
     CI/CD       : tuple[str, ...] = ("GitLab CI", "Jenkins", "GitHub Actions")
-    AIML        : tuple[str, ...] = ("GAN", "sklearn", "Multiprocessing", "Model Development", "NLP..NLG..NLU" )
+    AIML        : tuple[str, ...] = ("GAN", "sklearn", "RASA-Chatbot", "Model Development", "NLP..NLG..NLU" )
     misc        : tuple[str, ...] = ("FFMPEG/LIVE555", "Matplotlib", "BS4", "Socket.IO", "Selenium", "Scrapy")
-    ongoing     : tuple[str, ...] = ("AWS/DevOps", "Django", "Celery", "RabbitMQ", "RASA-Chatbot", "Kubernetes", "Cloud Native")
+    ongoing     : tuple[str, ...] = ("AWS/DevOps", "Django", "Celery", "RabbitMQ", "Kubernetes", "Pulumi", "Cloud Native", "GO Language")
 
     def serialize(self):
         return json.dumps(asdict(self), indent=4)
