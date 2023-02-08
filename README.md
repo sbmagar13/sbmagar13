@@ -10,10 +10,11 @@ from dataclasses import asdict, dataclass
 @dataclass
 class Stack:
     languages   : tuple[str, ...] = ("Python", "C..C++")
-    DevOps      : tuple[str, ...] = ("AWS", "Docker", "Kubernetes", "Chef/Puppet", "Terraform", "AWS-CDK(python)")
-    databases   : tuple[str, ...] = ("PostgreSQL", "Mongo")
+    Cloud       : tuple[str, ...] = ("AWS", "Docker", "Kubernetes", "Terraform", "AWS-CDK(python)")
+    databases   : tuple[str, ...] = ("PostgreSQL", "MySQL")
     CI/CD       : tuple[str, ...] = ("GitLab CI", "Jenkins", "GitHub Actions")
-    AIML        : tuple[str, ...] = ("GAN", "sklearn", "RASA-Chatbot", "Model Development", "NLP..NLG..NLU" )
+    AIML        : tuple[str, ...] = ("GAN", "sklearn", "RASA-Chatbot", "Model Development" )
+    OS          : tuple[str, ...] = ("Arch Linux", "Ubuntu", "CentOS", "Manjaro", "Windows") 
     misc        : tuple[str, ...] = ("FFMPEG/LIVE555", "Matplotlib", "BS4", "Socket.IO", "Selenium", "Scrapy")
     ongoing     : tuple[str, ...] = ("AWS/DevOps", "Kubernetes", "OpenShift Dev. SandBox", "Pulumi", "Cloud Native", "GO Language")
 
