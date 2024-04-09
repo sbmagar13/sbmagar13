@@ -12,7 +12,7 @@ class Stack:
     languages   : tuple[str, ...] = ("Python", "C..C++")
     Cloud       : tuple[str, ...] = ("AWS", "Docker", "Kubernetes", "Terraform", "AWS-CDK(python)")
     databases   : tuple[str, ...] = ("PostgreSQL", "AWS RDS")
-    CI/CD       : tuple[str, ...] = ("GitLab CI", "Jenkins", "GitHub Actions")
+    CI/CD       : tuple[str, ...] = ("GitLab CI", "Jenkins", "GitHub Actions", "AWS CodePipelines")
     AIML        : tuple[str, ...] = ("GAN", "sklearn", "RASA-Chatbot", "Model Development" )
     OS          : tuple[str, ...] = ("Arch Linux", "Ubuntu", "CentOS", "Manjaro", "Windows", "MacOS") 
     misc        : tuple[str, ...] = ("FFMPEG/LIVE555", "Matplotlib", "BS4", "Socket.IO", "Selenium", "Scrapy")
