@@ -36,8 +36,8 @@ print(stack.serialize())
         <a href="https://twitter.com/s_agarm_agar" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="s_agarm_agar" height="30" width="40" /></a>
         <a href="https://linkedin.com/in/sbmagar" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="sbmagar" height="30" width="40" /></a>
         <a href="https://stackoverflow.com/users/10819100" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="10819100" height="30" width="40" /></a>
-        <a href="https://fb.com/sbmagar.sbm99" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="sbmagar.sbm99" height="30" width="40" /></a>
-        <a href="https://instagram.com/magarsagarbudhathoki" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="magarsagarbudhathoki" height="30" width="40" /></a>
+        <a href="https://facebook.com/sbmagar13" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="sbmagar13" height="30" width="40" /></a>
+        <a href="https://instagram.com/sbmagar13" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="sbmagar13" height="30" width="40" /></a>
         </p>
 
 <a href="https://app.daily.dev/sbmagar"><img src="https://github.com/sbmagar/sbmagar/blob/main/devcard.png" width="400" alt="Sagar Budhathoki's Dev Card"/></a>
