@@ -29,10 +29,6 @@ print(stack.serialize())
 ```
 </h3>
 
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sbmagar&layout=compact)](https://github.com/sbmagar/github-readme-stats)
-[![trophy](https://github-profile-trophy.vercel.app/?username=sbmagar&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-
 <h3 align="left">Connect with me:</h3>
         <p align="left">
         <a href="https://twitter.com/s_agarm_agar" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="s_agarm_agar" height="30" width="40" /></a>
@@ -42,7 +38,21 @@ print(stack.serialize())
         <a href="https://instagram.com/sbmagar13" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="sbmagar13" height="30" width="40" /></a>
         </p>
 
-<a href="https://app.daily.dev/sbmagar"><img src="https://github.com/sbmagar/sbmagar/blob/main/devcard.png" width="400" alt="Sagar Budhathoki's Dev Card"/></a>
+<table>
+  <tr>
+    <td>
+      <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=qzb6mxppi1qt8o50cgkrbyw4v&redirect=true">
+        <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=qzb6mxppi1qt8o50cgkrbyw4v&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=true" alt="Spotify GitHub Profile"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://app.daily.dev/sbmagar">
+        <img src="https://github.com/sbmagar/sbmagar/blob/main/devcard.png" width="400" alt="Sagar Budhathoki's Dev Card"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
 
 
 <h3 align="left">Languages and Tools:</h3>
@@ -60,6 +70,14 @@ print(stack.serialize())
 <a href="https://www.postgresql.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a><a href="https://pytorch.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://www.jenkins.io/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" alt="jenkins" width="40" height="40"/> </a> 
 <a href="https://www.selenium.dev" target="_blank"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a>
 </p>
+
+<h3 align="left">GitHub Stats:</h3>
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sbmagar&layout=compact)](https://github.com/sbmagar/github-readme-stats)
+
+<h3 align="left">GitHub Awards:</h3>
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=sbmagar&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
 <!-- markdownlint-disable MD033 -->
 
