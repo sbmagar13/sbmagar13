@@ -65,6 +65,11 @@ print(stack.serialize())
     <summary>&#128240 <b>Latest Blogs Posts</b></summary><br/>
 
 <!-- BLOG-POST-LIST:START -->
+- [Install MongoDB on EC2 Instance — Solved Connection Issue From Public DNS](https://blog.budhathokisagar.com.np/install-mongodb-on-ec2-instance-solved-connection-issue-from-public-dns)
+- [ElasticSearch on AWS EC2 using Terraform](https://blog.budhathokisagar.com.np/elasticsearch-on-aws-ec2-using-terraform)
+- [Docker For Beginners: Learning Notes](https://blog.budhathokisagar.com.np/docker-for-beginners-cheatsheet)
+- [Local Set Up Kubernetes with Minikube](https://blog.budhathokisagar.com.np/local-set-up-kubernetes-with-minikube)
+- [Let&#39;s Encrypt&lpar;Certbot&rpar; free SSL with Nginx/Apache configurations on ubuntu &lpar;22.04 | 20.04 | 18.04&rpar;](https://blog.budhathokisagar.com.np/letsfree-ssl-with-nginx-apache-on-ubuntu)
 <!-- BLOG-POST-LIST:END -->
 
 </details>
