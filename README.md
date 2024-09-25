@@ -1,6 +1,8 @@
 <h1 align="center">Hi 👋, I'm Sagar Budhathoki</h1>
-<h3 align="center">A passionate & hardworking DevOps/Python Engineer and AI/ML enthusiast</h3>
-    
+<!-- <h3 align="center">A passionate & hardworking DevOps/Python Engineer and AI/ML enthusiast</h3> -->
+
+<h3 align="center"> <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=18&duration=2000&pause=1500&color=2299F7&center=true&vCenter=true&random=true&width=500&lines=DevOps%2FDevSecOps%2FSysOps;Software+Developer;AI%2FML+Enthusiast;Cybersecurity+Researcher;Web3+Enthusiast" alt="Typing SVG" /></a> </h3>
+
 ```python
 ​
 import json
