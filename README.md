@@ -29,31 +29,30 @@ print(stack.serialize())
 ```
 </h3>
 
-<h3 align="left">Connect with me:</h3>
-        <p align="left">
+<table style="border: none; border-collapse: collapse;">
+  <tr>
+    <td style="border: none;">
+      <a href="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=qzb6mxppi1qt8o50cgkrbyw4v&redirect=true">
+        <img src="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=qzb6mxppi1qt8o50cgkrbyw4v&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&bar_color_cover=true" width="300" alt="Spotify GitHub Profile"/>
+      </a>
+    </td>
+    <td style="border: none;">
+      <a href="https://app.daily.dev/sbmagar">
+        <img src="https://github.com/sbmagar/sbmagar/blob/main/devcard.png" width="300" alt="Sagar Budhathoki's Dev Card"/>
+      </a>
+    </td>
+    <td style="border: none;">
+      <h3 align="left">Connect with me:</h3>
+      <p align="left">
         <a href="https://twitter.com/s_agarm_agar" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="s_agarm_agar" height="30" width="40" /></a>
         <a href="https://linkedin.com/in/sbmagar" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="sbmagar" height="30" width="40" /></a>
         <a href="https://stackoverflow.com/users/10819100" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="10819100" height="30" width="40" /></a>
         <a href="https://facebook.com/sbmagar13" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="sbmagar13" height="30" width="40" /></a>
         <a href="https://instagram.com/sbmagar13" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="sbmagar13" height="30" width="40" /></a>
-        </p>
-
-<table>
-  <tr>
-    <td>
-      <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=qzb6mxppi1qt8o50cgkrbyw4v&redirect=true">
-        <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=qzb6mxppi1qt8o50cgkrbyw4v&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=true" alt="Spotify GitHub Profile"/>
-      </a>
-    </td>
-    <td>
-      <a href="https://app.daily.dev/sbmagar">
-        <img src="https://github.com/sbmagar/sbmagar/blob/main/devcard.png" width="400" alt="Sagar Budhathoki's Dev Card"/>
-      </a>
+      </p>
     </td>
   </tr>
 </table>
-
-
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://aws.amazon.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a>
