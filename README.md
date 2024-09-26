@@ -93,3 +93,12 @@ print(stack.serialize())
 <!-- BLOG-POST-LIST:END -->
 
 </details>
+
+<details>
+    <summary>&#128187 <b>GitHub Activities</b></summary><br/>
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+</details>
+
