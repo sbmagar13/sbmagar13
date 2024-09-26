@@ -79,6 +79,11 @@ print(stack.serialize())
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=sbmagar&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
+<p align="center"> 
+  Visitors count<br>
+  <img src="https://profile-counter.glitch.me/sbmagar13/count.svg" />
+</p>
+
 <!-- markdownlint-disable MD033 -->
 
 <details>
@@ -102,4 +107,5 @@ print(stack.serialize())
 <!--END_SECTION:activity-->
 
 </details>
+
 
