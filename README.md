@@ -37,8 +37,8 @@ print(stack.serialize())
       </a>
     </td>
     <td style="border: none;">
-      <a href="https://app.daily.dev/sbmagar">
-        <img src="https://github.com/sbmagar/sbmagar/blob/main/devcard.png" width="300" alt="Sagar Budhathoki's Dev Card"/>
+      <a href="https://app.daily.dev/sbmagar13">
+        <img src="https://github.com/sbmagar13/sbmagar13/blob/main/devcard.png" width="300" alt="Sagar Budhathoki's Dev Card"/>
       </a>
     </td>
     <td style="border: none;">
@@ -47,7 +47,7 @@ print(stack.serialize())
         <a href="https://twitter.com/s_agarm_agar" target="blank">
           <img style="margin-right: 10px; margin-bottom: 10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="Twitter" height="30" width="40" />
         </a>
-        <a href="https://linkedin.com/in/sbmagar" target="blank">
+        <a href="https://linkedin.com/in/sbmagar13" target="blank">
           <img style="margin-right: 10px; margin-bottom: 10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="LinkedIn" height="30" width="40" />
         </a>
         <a href="https://stackoverflow.com/users/10819100" target="blank">
@@ -83,11 +83,11 @@ print(stack.serialize())
 
 <h3 align="left">GitHub Stats:</h3>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sbmagar&layout=compact)](https://github.com/sbmagar/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sbmagar13&layout=compact)](https://github.com/sbmagar13/github-readme-stats)
 
 <h3 align="left">GitHub Awards:</h3>
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=sbmagar&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=sbmagar13&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
 <p align="center"> 
   Visitors count<br>
