@@ -96,7 +96,7 @@ print(stack.serialize())
 
 <!-- markdownlint-disable MD033 -->
 
-<details>
+<details open>
     <summary>&#128240 <b>Latest Blogs Posts</b></summary><br/>
 
 <!-- BLOG-POST-LIST:START -->
@@ -109,7 +109,7 @@ print(stack.serialize())
 
 </details>
 
-<details>
+<details open>
     <summary>&#128187 <b>GitHub Activities</b></summary><br/>
 
 <!--START_SECTION:activity-->
