@@ -42,13 +42,23 @@ print(stack.serialize())
       </a>
     </td>
     <td style="border: none;">
-      <h4 align="left">Connect with me:</h4>
+      <h4 align="left" style="color: #3949ab; padding-bottom: 10px;">Connect with me:</h4>
       <p align="left">
-        <a href="https://twitter.com/s_agarm_agar" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="s_agarm_agar" height="30" width="40" /></a>
-        <a href="https://linkedin.com/in/sbmagar" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="sbmagar" height="30" width="40" /></a>
-        <a href="https://stackoverflow.com/users/10819100" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="10819100" height="30" width="40" /></a>
-        <a href="https://facebook.com/sbmagar13" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="sbmagar13" height="30" width="40" /></a>
-        <a href="https://instagram.com/sbmagar13" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="sbmagar13" height="30" width="40" /></a>
+        <a href="https://twitter.com/s_agarm_agar" target="blank">
+          <img style="margin-right: 10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="Twitter" height="30" width="40" />
+        </a>
+        <a href="https://linkedin.com/in/sbmagar" target="blank">
+          <img style="margin-right: 10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="LinkedIn" height="30" width="40" />
+        </a>
+        <a href="https://stackoverflow.com/users/10819100" target="blank">
+          <img style="margin-right: 10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="Stack Overflow" height="30" width="40" />
+        </a>
+        <a href="https://facebook.com/sbmagar13" target="blank">
+          <img style="margin-right: 10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="Facebook" height="30" width="40" />
+        </a>
+        <a href="https://instagram.com/sbmagar13" target="blank">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="Instagram" height="30" width="40" />
+        </a>
       </p>
     </td>
   </tr>
