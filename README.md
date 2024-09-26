@@ -42,7 +42,7 @@ print(stack.serialize())
       </a>
     </td>
     <td style="border: none;">
-      <h3 align="left">Connect with me:</h3>
+      <h4 align="left">Connect with me:</h4>
       <p align="left">
         <a href="https://twitter.com/s_agarm_agar" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="s_agarm_agar" height="30" width="40" /></a>
         <a href="https://linkedin.com/in/sbmagar" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="sbmagar" height="30" width="40" /></a>
