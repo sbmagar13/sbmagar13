@@ -59,7 +59,7 @@ print(stack.serialize())
         <a href="https://instagram.com/sbmagar13" target="blank">
           <img style="margin-bottom: 10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="Instagram" height="30" width="40" />
         </a>
-          <a href="sbmagar13" target="blank">
+          <a href="https://discord.com/users/sbmagar13" target="blank">
           <img style="margin-bottom: 10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/discord.svg" alt="Discord" height="30" width="40" />
         </a>
       </p>
