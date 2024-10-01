@@ -27,7 +27,7 @@ stack = Stack()
 print(stack.serialize())
 ​
 ```
-<h3 align="center">Socials:</h3>
+<h3 align="center">Socials</h3>
 
 <table style="border: none; border-collapse: collapse;" align="center">
   <tr>
@@ -67,7 +67,7 @@ print(stack.serialize())
   </tr>
 </table>
 
-<h3 align="center">Languages and Tools:</h3>
+<h3 align="center">Languages and Tools</h3>
 <p align="center"> <a href="https://aws.amazon.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a>
 <a href="https://www.gnu.org/software/bash/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" alt="django" width="40" height="40"/> </a>
 <a href="https://neovim.io/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/neovim/neovim-original.svg" alt="neovim" width="40" height="40"/> </a>
@@ -86,21 +86,21 @@ print(stack.serialize())
 
 <div align="center">
 
-<h3>GitHub Stats:</h3>
+<h3>GitHub Stats</h3>
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sbmagar13&layout=compact)](https://github.com/sbmagar13/github-readme-stats)
 
 </div>
 
 <div align="center">
-<h3 align="center">GitHub Awards:</h3>
+<h3 align="center">GitHub Awards</h3>
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=sbmagar13&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
+<h3 align="center">Visitors Count</h3>
 <p align="center"> 
-  Visitors count<br>
   <img src="https://profile-counter.glitch.me/sbmagar13/count.svg" />
 </p>
 
