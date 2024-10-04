@@ -123,7 +123,7 @@ print(stack.serialize())
     <summary>&#128187 <b>GitHub Activities</b></summary><br/>
 
 <!--START_SECTION:activity-->
-1. ❗ Opened issue [#19742](https://github.com/JonathanGin52/JonathanGin52/issues/19742) in [JonathanGin52/JonathanGin52](https://github.com/JonathanGin52/JonathanGin52)
+1. 🎉 Merged PR [#3](https://github.com/sbmagar13/VQGAN-CLIP-Text-to-Image/pull/3) in [sbmagar13/VQGAN-CLIP-Text-to-Image](https://github.com/sbmagar13/VQGAN-CLIP-Text-to-Image)
 <!--END_SECTION:activity-->
 
 </details>
