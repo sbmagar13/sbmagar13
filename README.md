@@ -110,11 +110,11 @@ print(stack.serialize())
     <summary>&#128240 <b>Latest Blogs Posts</b></summary><br/>
 
 <!-- BLOG-POST-LIST:START -->
+- [Terraform CLI Tips and Cheatsheets](https://blog.budhathokisagar.com.np/terraform-cli-tips-and-cheatsheets)
 - [Linting The Docker Image With Dockle](https://blog.budhathokisagar.com.np/linting-the-docker-image-with-dockle)
 - [Install MongoDB on EC2 Instance — Solved Connection Issue From Public DNS](https://blog.budhathokisagar.com.np/install-mongodb-on-ec2-instance-solved-connection-issue-from-public-dns)
 - [ElasticSearch on AWS EC2 using Terraform](https://blog.budhathokisagar.com.np/elasticsearch-on-aws-ec2-using-terraform)
 - [Docker For Beginners: Learning Notes](https://blog.budhathokisagar.com.np/docker-for-beginners-cheatsheet)
-- [Local Set Up Kubernetes with Minikube](https://blog.budhathokisagar.com.np/local-set-up-kubernetes-with-minikube)
 <!-- BLOG-POST-LIST:END -->
 
 </details>
