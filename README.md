@@ -15,9 +15,9 @@ class Stack:
     cloud        : tuple[str, ...] = ("AWS", "Heroku")
     technologies : tuple[str, ...] = ("Docker", "Kubernetes", "Terraform", "AWS-CDK(python)")
     databases    : tuple[str, ...] = ("PostgreSQL", "AWS RDS")
-    CI/CD        : tuple[str, ...] = ("GitLab CI", "Jenkins", "GitHub Actions", "AWS CodePipelines")
-    AIML         : tuple[str, ...] = ("GAN", "sklearn", "RASA-Chatbot", "Model Development" )
-    OS           : tuple[str, ...] = ("Arch Linux", "Ubuntu", "CentOS", "Manjaro", "Windows", "MacOS") 
+    cicd         : tuple[str, ...] = ("GitLab CI", "Jenkins", "GitHub Actions", "AWS CodePipelines")
+    aiml         : tuple[str, ...] = ("GAN", "sklearn", "RASA-Chatbot", "Model Development" )
+    os           : tuple[str, ...] = ("Arch Linux", "Ubuntu", "CentOS", "Manjaro", "Windows", "MacOS") 
     misc         : tuple[str, ...] = ("FFMPEG/LIVE555", "Matplotlib", "BS4", "Socket.IO", "Selenium", "Scrapy")
     ongoing      : tuple[str, ...] = ("AWS/DevOps", "Kubernetes", "OpenShift Dev. SandBox", "Pulumi", "Cloud Native", "GO Language")
 
