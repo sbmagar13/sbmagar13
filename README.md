@@ -86,6 +86,11 @@ print(stack.serialize())
 </p>
 
 <div align="center">
+<h3>GitHub Activity</h3>
+<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats-one-gilt.vercel.app?user=sbmagar13" alt="GitHub Streak" /></a>
+</div>
+
+<div align="center">
 
 <h3>GitHub Stats</h3>
 
