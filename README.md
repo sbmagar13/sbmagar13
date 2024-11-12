@@ -8,24 +8,24 @@
 import json
 from dataclasses import asdict, dataclass
 
-
 @dataclass
 class Stack:
-    languages    : tuple[str, ...] = ("Python", "C..C++", "JavaScript")
-    cloud        : tuple[str, ...] = ("AWS", "Heroku")
-    technologies : tuple[str, ...] = ("Docker", "Kubernetes", "Terraform", "AWS-CDK(python)")
-    databases    : tuple[str, ...] = ("PostgreSQL", "AWS RDS")
-    cicd         : tuple[str, ...] = ("GitLab CI", "Jenkins", "GitHub Actions", "AWS CodePipelines")
-    aiml         : tuple[str, ...] = ("GAN", "sklearn", "RASA-Chatbot", "Model Development" )
-    os           : tuple[str, ...] = ("Arch Linux", "Ubuntu", "CentOS", "Manjaro", "Windows", "MacOS") 
-    misc         : tuple[str, ...] = ("FFMPEG/LIVE555", "Matplotlib", "BS4", "Socket.IO", "Selenium", "Scrapy")
-    ongoing      : tuple[str, ...] = ("AWS/DevOps", "Kubernetes", "OpenShift Dev. SandBox", "Pulumi", "Cloud Native", "GO Language")
+    languages         : tuple[str, ...] = ("Python", "C/C++", "JavaScript")
+    cloud             : tuple[str, ...] = ("AWS", "Heroku")
+    technologies      : tuple[str, ...] = ("Docker", "Kubernetes", "Terraform", "AWS CDK (Python)")
+    databases         : tuple[str, ...] = ("PostgreSQL", "AWS RDS")
+    cicd              : tuple[str, ...] = ("GitLab CI", "Jenkins", "GitHub Actions", "AWS CodePipeline")
+    aiml              : tuple[str, ...] = ("GANs", "scikit-learn", "Rasa Chatbot", "Model Development")
+    operating_systems : tuple[str, ...] = ("Arch Linux", "Ubuntu", "CentOS", "Manjaro", "Windows", "macOS")
+    misc_tools        : tuple[str, ...] = ("FFmpeg/LIVE555", "Matplotlib", "BeautifulSoup", "Socket.IO", "Selenium", "Scrapy")
+    ongoing_learning  : tuple[str, ...] = ("AWS/DevOps", "Kubernetes", "OpenShift Dev Sandbox", "Pulumi", "Cloud Native", "Go Language")
 
     def serialize(self):
         return json.dumps(asdict(self), indent=4)
 
 stack = Stack()
 print(stack.serialize())
+
 ​
 ```
 <h3 align="center">Socials</h3>
