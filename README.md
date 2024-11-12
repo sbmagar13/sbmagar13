@@ -6,7 +6,7 @@
 **About me**
 - 💼 DevOps Engineer at <a href="http://eventlogic.se/" target="_blank">EventLogic</a>
 - 🌱 Passionate about continuous learning, currently exploring Cloud Native, Kubernetes, and Pulumi
-- 🛠️ Experienced in CI/CD automation, container orchestration, and infrastructure as code
+- 🛠️ Experienced in CI/CD automation, container orchestration, and Infrastructure as Code
 - 📊 Building robust solutions with AWS, Terraform, and Docker
 - 🐧 Linux enthusiast with experience across Arch Linux, Ubuntu, and CentOS
 - 💬 Ask me anything or discuss DevOps topics [here](https://github.com/sbmagar13/sbmagar13/issues)
