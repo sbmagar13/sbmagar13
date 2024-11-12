@@ -4,7 +4,7 @@
 <h3 align="center"> <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.budhathokisagar.com.np?font=Press+Start+2P&size=18&duration=2000&pause=1500&color=2299F7&center=true&vCenter=true&random=true&width=500&lines=Self-taught%2FDevOps%2FSysOps;Software+Developer;AI%2FML+Enthusiast;" alt="Typing SVG" /></a> </h3>
 
 **About me**
-- 💼 DevOps Engineer at [EventLogic](http://eventlogic.se/)
+- 💼 DevOps Engineer at <a href="http://eventlogic.se/" target="_blank">EventLogic</a>
 - 🌱 Passionate about continuous learning, currently exploring Cloud Native, Kubernetes, and Pulumi
 - 🛠️ Experienced in CI/CD automation, container orchestration, and infrastructure as code
 - 📊 Building robust solutions with AWS, Terraform, and Docker
