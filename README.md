@@ -129,7 +129,7 @@ print(stack.serialize())
     <summary>&#128187 <b>GitHub Activities</b></summary><br/>
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#3](https://github.com/sbmagar13/VQGAN-CLIP-Text-to-Image/pull/3) in [sbmagar13/VQGAN-CLIP-Text-to-Image](https://github.com/sbmagar13/VQGAN-CLIP-Text-to-Image)
+1. 🎉 Merged PR [#5](https://github.com/sbmagar13/sbmagar13/pull/5) in [sbmagar13/sbmagar13](https://github.com/sbmagar13/sbmagar13)
 <!--END_SECTION:activity-->
 
 </details>
