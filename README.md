@@ -137,7 +137,7 @@ print(stack.serialize())
     <summary>&#128187 <b>GitHub Activities</b></summary><br/>
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#9](https://github.com/sbmagar13/sbmagar13.github.io/pull/9) in [sbmagar13/sbmagar13.github.io](https://github.com/sbmagar13/sbmagar13.github.io)
+1. 🎉 Merged PR [#10](https://github.com/sbmagar13/sbmagar13.github.io/pull/10) in [sbmagar13/sbmagar13.github.io](https://github.com/sbmagar13/sbmagar13.github.io)
 <!--END_SECTION:activity-->
 
 </details>
