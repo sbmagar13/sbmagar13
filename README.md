@@ -10,7 +10,14 @@
   </a>
 </p>
 
-<p align="center"><span style="display: inline-flex; align-items: center; vertical-align: middle;">Visitors Count: <img src="https://profile-counter.glitch.me/sbmagar13/count.svg" alt="Visitor Count" style="vertical-align: middle;" /></span></p>
+<div align="center">
+  <table align="center">
+    <tr>
+      <td align="right">Visitors Count:</td>
+      <td align="left"><img src="https://profile-counter.glitch.me/sbmagar13/count.svg" alt="Visitor Count" /></td>
+    </tr>
+  </table>
+</div>
 
 <!-- Quick Links -->
 <p align="center">
