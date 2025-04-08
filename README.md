@@ -1,6 +1,6 @@
 <!-- Header Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Sagar%20Budhathoki&fontSize=50&fontAlignY=35&animation=fadeIn&fontColor=white" alt="header banner" />
+  <img src="https://capsule-render.vercel.app/api?type=egg&color=timeGradient&height=200&section=header&text=Sagar%20Budhathoki&fontSize=50&fontAlignY=50&animation=twinkling&fontColor=ffffff" alt="header banner" />
 </p>
 
 <!-- Dynamic Typing SVG -->
