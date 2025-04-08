@@ -10,10 +10,7 @@
   </a>
 </p>
 
-<!-- Profile Views Counter -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=sbmagar13&style=for-the-badge&color=blue" alt="Profile Views" />
-</p>
+<p align="center"><span style="display: inline-flex; align-items: center; vertical-align: middle;">Visitors Count: <img src="https://profile-counter.glitch.me/sbmagar13/count.svg" alt="Visitor Count" style="vertical-align: middle;" /></span></p>
 
 <!-- Quick Links -->
 <p align="center">
@@ -29,10 +26,6 @@
 </p>
 
 ## 🚀 About Me
-
-<p align="center">
-  <img align="right" width="300" src="https://github.com/sbmagar13/sbmagar13/blob/main/devcard.png" alt="Dev Card" />
-</p>
 
 > DevOps Engineer passionate about automation, cloud infrastructure, and continuous learning.
 
@@ -68,6 +61,21 @@ class Stack:
 stack = Stack()
 print(stack.serialize())
 ```
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <img width="300" src="https://github.com/sbmagar13/sbmagar13/blob/main/devcard.png" alt="Dev Card" />
+      </td>
+      <td align="center" width="50%">
+        <a href="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=qzb6mxppi1qt8o50cgkrbyw4v&redirect=true">
+          <img src="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=qzb6mxppi1qt8o50cgkrbyw4v&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&bar_color_cover=true" width="300" alt="Spotify Profile"/>
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ### 💻 Languages
 <p>
@@ -166,12 +174,6 @@ print(stack.serialize())
   </a>
 </p>
 
-<p align="center">
-  <a href="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=qzb6mxppi1qt8o50cgkrbyw4v&redirect=true">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=qzb6mxppi1qt8o50cgkrbyw4v&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&bar_color_cover=true" width="300" alt="Spotify Profile"/>
-  </a>
-</p>
-
 ## 📝 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
@@ -201,12 +203,6 @@ print(stack.serialize())
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=sbmagar13&repo=sbmagar13.github.io&theme=tokyonight&hide_border=true" alt="Personal Website Repo" />
   </a>
   <!-- Add more featured projects as needed -->
-</p>
-
-## 👁️ Visitors Count
-
-<p align="center">
-  <img src="https://profile-counter.glitch.me/sbmagar13/count.svg" alt="Visitor Count" />
 </p>
 
 <!-- Footer -->
