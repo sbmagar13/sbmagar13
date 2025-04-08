@@ -40,6 +40,7 @@
 - 🌱 Currently exploring **Cloud Native, Kubernetes, and Pulumi**
 - 🛠️ Experienced in **CI/CD automation, container orchestration, and Infrastructure as Code**
 - 📊 Building robust solutions with **AWS, Terraform, and Docker**
+- 🤖 Experienced in **prompt engineering, and building AI-powered applications**
 - 🐧 Linux enthusiast with experience across **Arch Linux, Ubuntu, and CentOS**
 - 🎓 Self-taught developer with a passion for sharing knowledge
 - 🌍 Based in Nepal, working globally
@@ -57,7 +58,7 @@ class Stack:
     technologies      : tuple[str, ...] = ("Docker", "Kubernetes", "Terraform", "AWS CDK (Python)")
     databases         : tuple[str, ...] = ("PostgreSQL", "AWS RDS")
     cicd              : tuple[str, ...] = ("GitLab CI", "Jenkins", "GitHub Actions", "AWS CodePipeline")
-    aiml              : tuple[str, ...] = ("GANs", "scikit-learn", "Rasa Chatbot", "Model Development")
+    aiml              : tuple[str, ...] = ("PyTorch", "Keras", "Hugging Face", "LangChain", "MLOps", "OpenAI", "LLM Engineering")
     operating_systems : tuple[str, ...] = ("Arch Linux", "Ubuntu", "CentOS", "Manjaro", "Windows", "macOS")
     misc_tools        : tuple[str, ...] = ("FFmpeg/LIVE555", "Matplotlib", "BeautifulSoup", "Socket.IO", "Selenium", "Scrapy")
     ongoing_learning  : tuple[str, ...] = ("AWS/DevOps", "Kubernetes", "OpenShift Dev Sandbox", "Pulumi", "Cloud Native", "Go Language")
@@ -115,11 +116,20 @@ print(stack.serialize())
   <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
 
-### 🧠 AI/ML
+### 🧠 AI/ML & Data Science
 <p>
   <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white" alt="Keras" />
   <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn" />
-  <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/Hugging%20Face-%23FFD21E.svg?style=for-the-badge" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/LangChain-%2300A3E0.svg?style=for-the-badge" alt="LangChain" />
+  <img src="https://img.shields.io/badge/MLOps-%23025E8C.svg?style=for-the-badge" alt="MLOps" />
+  <img src="https://img.shields.io/badge/Weights%20%26%20Biases-%23FFBE00.svg?style=for-the-badge&logo=weightsandbiases&logoColor=black" alt="Weights & Biases" />
+  <img src="https://img.shields.io/badge/Pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/NumPy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Matplotlib-%23F37626.svg?style=for-the-badge" alt="Matplotlib" />
+  <img src="https://img.shields.io/badge/OpenAI-%23412991.svg?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
+  <img src="https://img.shields.io/badge/LLM%20Engineering-%23FF6F61.svg?style=for-the-badge" alt="LLM Engineering" />
 </p>
 
 ### 💻 Operating Systems
