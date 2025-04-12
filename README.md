@@ -45,7 +45,7 @@
 - 🎓 Self-taught developer with a passion for sharing knowledge
 - 🌍 Based in Nepal, working globally
 
-<!-- GitAds-Verify: DF17XOXTA8KJ4LLPS5WX493U8GZAWEHT -->
+<!-- GitAds-Verify: JKBX57PM4P6M9WKLZ2IH5ZMHSO5RZ14O -->
 
 ## 🔧 Tech Stack
 
