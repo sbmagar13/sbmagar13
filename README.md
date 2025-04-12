@@ -144,7 +144,7 @@ print(stack.serialize())
   <img src="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0" alt="macOS" />
 </p>
 
-## GitAds Sponsored
+## Sponsored
 [![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=sbmagar13/sbmagar13@github)](https://gitads.dev/v1/ad-track?source=sbmagar13/sbmagar13@github)
 
 
@@ -228,6 +228,9 @@ print(stack.serialize())
   </a>
   <!-- Add more featured projects as needed -->
 </p>
+
+## Sponsored
+[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=sbmagar13/sbmagar13@github)](https://gitads.dev/v1/ad-track?source=sbmagar13/sbmagar13@github)
 
 <!-- Footer -->
 <p align="center">
