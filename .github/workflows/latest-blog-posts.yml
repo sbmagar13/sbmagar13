@@ -13,4 +13,4 @@ jobs:
       - uses: actions/checkout@v4
       - uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://blog.budhathokisagar.com.np/rss.xml"
+          feed_list: "https://sbmagar13.hashnode.dev/rss.xml"
