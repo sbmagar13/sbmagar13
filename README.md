@@ -217,7 +217,7 @@ print(stack.serialize())
 ## 🔄 Recent GitHub Activities
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#16](https://github.com/sbmagar13/sbmagar13.github.io/pull/16) in [sbmagar13/sbmagar13.github.io](https://github.com/sbmagar13/sbmagar13.github.io)
+1. 🎉 Merged PR [#18](https://github.com/sbmagar13/sbmagar13.github.io/pull/18) in [sbmagar13/sbmagar13.github.io](https://github.com/sbmagar13/sbmagar13.github.io)
 <!--END_SECTION:activity-->
 
 ## 🏆 Featured Projects
