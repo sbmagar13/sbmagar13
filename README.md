@@ -201,6 +201,7 @@ print(stack.serialize())
 ## 📝 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [I Built an MCP Server for Hashnode](https://blog.budhathokisagar.com.np/mcp-server-for-hashnode)
 - [Terraform CLI Tips and Cheatsheets](https://blog.budhathokisagar.com.np/terraform-cli-tips-and-cheatsheets)
 - [Linting The Docker Image With Dockle](https://blog.budhathokisagar.com.np/linting-the-docker-image-with-dockle)
 - [Install MongoDB on EC2 Instance — Solved Connection Issue From Public DNS](https://blog.budhathokisagar.com.np/install-mongodb-on-ec2-instance-solved-connection-issue-from-public-dns)
