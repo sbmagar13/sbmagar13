@@ -63,7 +63,7 @@ class Stack:
     aiml              : tuple[str, ...] = ("PyTorch", "Keras", "Hugging Face", "LangChain", "MLOps", "OpenAI", "LLM Engineering")
     operating_systems : tuple[str, ...] = ("Arch Linux", "Ubuntu", "CentOS", "Manjaro", "Windows", "macOS")
     misc_tools        : tuple[str, ...] = ("FFmpeg/LIVE555", "Matplotlib", "BeautifulSoup", "Socket.IO", "Selenium", "Scrapy")
-    ongoing_learning  : tuple[str, ...] = ("AWS/DevOps", "Kubernetes", "OpenShift Dev Sandbox", "Pulumi", "Cloud Native", "Go Language")
+    ongoing_learning  : tuple[str, ...] = ("AWS/DevOps", "Kubernetes", "AI MCP", "AI-Agent(LangChain, LangGraph)", "Ansible", "Cloud Native", "Go Language")
 
     def serialize(self):
         return json.dumps(asdict(self), indent=4)
