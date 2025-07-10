@@ -6,7 +6,7 @@
 <!-- Dynamic Typing SVG -->
 <!-- Terminal-style Animated Banner -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=36FFA3&vCenter=true&center=true&width=750&lines=%24+whoami+Sagar+Budhathoki;DevOps+%E2%9A%99%EF%B8%8F+%7C+Cloud+Native+%7C+Automation+Ninja;Building+with+Python%2C+Cloud%2C+AI+%F0%9F%A7%BF" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=22223B&vCenter=true&center=true&width=750&lines=%24+whoami+Sagar+Budhathoki;DevOps+%E2%9A%99%EF%B8%8F+%7C+Cloud+Native+%7C+Automation+Ninja;Building+with+Python%2C+Cloud%2C+AI+%F0%9F%A7%BF" alt="Typing SVG" />
 </p>
 
 
@@ -143,6 +143,19 @@ print(stack.serialize())
   <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
   <img src="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0" alt="macOS" />
 </p>
+
+### 🛠️ Personal Productivity Kit
+
+| Tool         | Use Case          | OS           | Favorite? |
+|--------------|-------------------|--------------|-----------|
+| Warp/iTerm2  | Terminal          | macOS        | ⭐️⭐️⭐️⭐️⭐️ |
+| Notion       | Notes/Docs        | Web, Desktop | ⭐️⭐️⭐️⭐️⭐️ |
+| Bitwarden    | Password Manager  | Cross-plat   | ⭐️⭐️⭐️⭐️⭐️ |
+| Maccy        | Clipboard         | macOS        | ⭐️⭐️⭐️⭐️⭐️ |
+| AltTab       | Window Switcher   | macOS        | ⭐️⭐️⭐️⭐️⭐️ |
+| Rectangle    | Window Manager    | macOS        | ⭐️⭐️⭐️⭐️⭐️ |
+| Vimium       | Browser Shortcuts | Chrome/FF    | ⭐️⭐️⭐️⭐️⭐️ |
+
 
 ## Sponsored
 [![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=sbmagar13/sbmagar13@github)](https://gitads.dev/v1/ad-track?source=sbmagar13/sbmagar13@github)
