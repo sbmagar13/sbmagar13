@@ -10,7 +10,7 @@
   </a>
 </p>
 
-<div align="center">
+<!-- <div align="center">
   <table align="center">
     <tr>
       <td align="right">Visitors Count:</td>
@@ -18,7 +18,7 @@
     </tr>
   </table>
 </div>
-
+-->
 <!-- Quick Links -->
 <p align="center">
   <a href="https://blog.budhathokisagar.com.np">
@@ -152,9 +152,7 @@ print(stack.serialize())
 ## 📊 GitHub Stats
 
 <p align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=sbmagar13&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-  </a>
+  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=sbmagar13&theme=tokyonight&hide_border=true" alt="GitHub Streak" /></a>
 </p>
 
 <p align="center">
