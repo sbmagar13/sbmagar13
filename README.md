@@ -4,11 +4,11 @@
 </p>
 
 <!-- Dynamic Typing SVG -->
+<!-- Terminal-style Animated Banner -->
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?font=Press+Start+2P&size=14&duration=2000&pause=1500&color=2299F7&center=true&vCenter=true&random=true&width=500&lines=Self-taught+DevOps%2FSysOps;Software+Developer;AI%2FML+Enthusiast;Cloud+Native+Explorer;Infrastructure+as+Code+Specialist" alt="Typing SVG" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=36FFA3&vCenter=true&center=true&width=750&lines=%24+whoami+Sagar+Budhathoki;DevOps+%E2%9A%99%EF%B8%8F+%7C+Cloud+Native+%7C+Automation+Ninja;Building+with+Python%2C+Cloud%2C+AI+%F0%9F%A7%BF" alt="Typing SVG" />
 </p>
+
 
 <!-- <div align="center">
   <table align="center">
