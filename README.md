@@ -207,14 +207,6 @@ print(stack.serialize())
 1. 💪 Opened PR [#35](undefined) in [sbmagar13/sbmagar13.github.io](https://github.com/sbmagar13/sbmagar13.github.io)
 <!--END_SECTION:activity-->
 
-## 🏆 Featured Projects
-
-<p align="center">
-  <a href="https://github.com/sbmagar13/sbmagar13.github.io">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sbmagar13&repo=sbmagar13.github.io&theme=tokyonight&hide_border=true" alt="Personal Website Repo" />
-  </a>
-  <!-- Add more featured projects as needed -->
-</p>
 
 ## Sponsored
 [![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=sbmagar13/sbmagar13@github)](https://gitads.dev/v1/ad-track?source=sbmagar13/sbmagar13@github)
