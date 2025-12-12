@@ -161,31 +161,6 @@ print(stack.serialize())
 [![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=sbmagar13/sbmagar13@github)](https://gitads.dev/v1/ad-track?source=sbmagar13/sbmagar13@github)
 
 
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=sbmagar13&theme=tokyonight&hide_border=true" alt="GitHub Streak" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=sbmagar13&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sbmagar13&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=sbmagar13&theme=nord&column=7&no-frame=true" alt="GitHub Trophies" />
-  </a>
-</p>
-
 ## 🌐 Connect With Me
 
 <p align="center">
