@@ -207,9 +207,22 @@ print(stack.serialize())
 1. 💪 Opened PR [#35](undefined) in [sbmagar13/sbmagar13.github.io](https://github.com/sbmagar13/sbmagar13.github.io)
 <!--END_SECTION:activity-->
 
-
 ## Sponsored
 [![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=sbmagar13/sbmagar13@github)](https://gitads.dev/v1/ad-track?source=sbmagar13/sbmagar13@github)
+
+## Support
+<div>
+  <p align="center" class="support-text">If my repos saved you a headache or you just find them interesting, consider buying me a momo please 😁 - the Nepali developer's fuel! 🥟</p>
+
+  <div align="center">
+    <a href="https://buymemomo.com/sbmagar13" target="_blank" rel="noreferrer">
+      <img
+        src="https://buymemomo.com/logo.png"
+        alt="buy me momo" />
+    </a>
+  </div>
+</div>
+
 
 <!-- Footer -->
 <p align="center">
