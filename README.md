@@ -1,29 +1,22 @@
 <!-- =====================================================================
-     Sagar Budhathoki  ·  GitHub Profile README  ·  Premium pass
+     Sagar Budhathoki  ·  GitHub Profile README  ·  Premium v2
      Palette: cyan #22D3EE  +  violet #A855F7  on GitHub dark #0D1117
-     Style:   restrained, consistent, signature pieces kept
+     Strategy: lean on committed SVGs from GitHub Actions, not rented
+     Vercel proxies. Setup workflows at the bottom of this file.
      ===================================================================== -->
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=30&pause=1000&color=22D3EE&center=true&vCenter=true&width=900&height=70&lines=Sagar+Budhathoki;DevOps+%2F+SRE+%C2%B7+Cloud+Native+%C2%B7+AI+for+Ops;Python+%C2%B7+Terraform+%C2%B7+Kubernetes+%C2%B7+AWS;Building+from+Kathmandu%2C+shipping+globally"
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=1000&color=22D3EE&center=true&vCenter=true&width=900&height=70&lines=Sagar+Budhathoki%2C+DevOps+and+SRE;I+make+boring+infrastructure+reliable;Python+%C2%B7+Go+%C2%B7+Terraform+%C2%B7+Kubernetes+%C2%B7+AWS;5%2B+years+keeping+the+pager+quiet"
     alt="Sagar Budhathoki, DevOps and SRE"
   />
 </p>
 
 <p align="center">
-  <a href="https://sagarbudhathoki.com">
-    <img src="https://img.shields.io/badge/portfolio-sagarbudhathoki.com-22D3EE?style=flat-square&logo=vercel&logoColor=white" alt="portfolio"/>
-  </a>
-  <a href="https://blog.budhathokisagar.com.np">
-    <img src="https://img.shields.io/badge/blog-read-2962FF?style=flat-square&logo=hashnode&logoColor=white" alt="blog"/>
-  </a>
-  <a href="https://linkedin.com/in/sbmagar13">
-    <img src="https://img.shields.io/badge/linkedin-connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="linkedin"/>
-  </a>
-  <a href="mailto:sagar@eventlogic.se">
-    <img src="https://img.shields.io/badge/email-reach%20out-A855F7?style=flat-square&logo=protonmail&logoColor=white" alt="email"/>
-  </a>
+  <a href="https://sagarbudhathoki.com"><img src="https://img.shields.io/badge/portfolio-sagarbudhathoki.com-22D3EE?style=flat-square&logo=vercel&logoColor=white" alt="portfolio"/></a>
+  <a href="https://blog.budhathokisagar.com.np"><img src="https://img.shields.io/badge/blog-read-2962FF?style=flat-square&logo=hashnode&logoColor=white" alt="blog"/></a>
+  <a href="https://linkedin.com/in/sbmagar13"><img src="https://img.shields.io/badge/linkedin-connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="linkedin"/></a>
+  <a href="mailto:sagar@eventlogic.se"><img src="https://img.shields.io/badge/email-reach%20out-A855F7?style=flat-square&logo=protonmail&logoColor=white" alt="email"/></a>
   <img src="https://komarev.com/ghpvc/?username=sbmagar13&style=flat-square&color=22D3EE&label=visitors" alt="visitors"/>
 </p>
 
@@ -33,10 +26,10 @@
 
 DevOps and SRE engineer with **5+ years** running cloud platforms in production. I care about the boring parts of infrastructure: reliability, automation, blast radius, the post-mortem you never have to write.
 
-- **Now**: DevOps at [EventLogic](https://eventlogic.se), on AWS, Kubernetes, Terraform.
-- **Building**: AI agents for ops workflows, Terraform / Terragrunt modules, side projects that teach me one new thing each.
+- **Now**: DevOps at [EventLogic](https://eventlogic.se), on AWS, Kubernetes, Terraform, Terragrunt.
+- **Building**: AI agents for ops workflows, internal Terraform modules, side projects that teach me one new thing each.
 - **Learning**: Kubernetes operators, Go for control planes, agentic systems for incident response.
-- **Based in** Kathmandu, Nepal. Comfortable across timezones.
+- **Based in** Kathmandu, working across timezones.
 
 ## Tech Stack
 
@@ -53,7 +46,6 @@ class Stack:
     data         = ("PostgreSQL", "RDS", "Aurora", "Redis")
     observability= ("Prometheus", "Grafana", "CloudWatch", "OpenTelemetry")
     ai           = ("OpenAI", "Anthropic", "LangChain", "LangGraph", "MLOps")
-    os           = ("Arch Linux", "Ubuntu", "macOS")
     learning     = ("K8s operators", "Go control planes", "AI agents for DevOps")
 
 stack = Stack()
@@ -83,36 +75,21 @@ stack = Stack()
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
 </p>
 
-### Cloud & Infrastructure
+### Infrastructure & Platform
 <p>
   <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS"/>
   <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"/>
-  <img src="https://img.shields.io/badge/Terragrunt-2D9EE0?style=for-the-badge&logo=gruntfunding&logoColor=white" alt="Terragrunt"/>
-  <img src="https://img.shields.io/badge/Pulumi-8A3391?style=for-the-badge&logo=pulumi&logoColor=white" alt="Pulumi"/>
-  <img src="https://img.shields.io/badge/Docker-0DB7ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
-  <img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white" alt="Helm"/>
-</p>
-
-### CI/CD & Delivery
-<p>
+  <img src="https://img.shields.io/badge/Docker-0DB7ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
   <img src="https://img.shields.io/badge/GitHub%20Actions-2671E5?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
-  <img src="https://img.shields.io/badge/GitLab%20CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab CI"/>
-  <img src="https://img.shields.io/badge/Jenkins-2C5263?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins"/>
   <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white" alt="ArgoCD"/>
-</p>
-
-### Data & Observability
-<p>
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/AWS%20RDS-527FFF?style=for-the-badge&logo=amazon-rds&logoColor=white" alt="RDS"/>
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
   <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus"/>
   <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana"/>
-  <img src="https://img.shields.io/badge/OpenTelemetry-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" alt="OpenTelemetry"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
 </p>
 
-### AI & Agentic Systems
+### AI & Agentic
 <p>
   <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
   <img src="https://img.shields.io/badge/Anthropic-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Anthropic"/>
@@ -122,17 +99,29 @@ stack = Stack()
   <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logoColor=black" alt="Hugging Face"/>
 </p>
 
-## GitHub Stats
+---
+
+## GitHub at a Glance
+
+<!--
+  This whole block is rendered from SVGs committed by GitHub Actions in this
+  repo. They render even if Vercel proxies are rate-limited. Setup workflows
+  are at the bottom of this file.
+
+  If you have not set up the actions yet, the first three images below will
+  404. Comment out this section until the first runs land.
+-->
 
 <p align="center">
-  <a href="https://github.com/sbmagar13">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=sbmagar13&show_icons=true&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=A855F7&text_color=C9D1D9&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub stats"/>
-    <img height="170" src="https://streak-stats.demolab.com?user=sbmagar13&hide_border=true&background=0D1117&stroke=22D3EE&ring=22D3EE&fire=A855F7&currStreakLabel=22D3EE&sideLabels=C9D1D9&currStreakNum=C9D1D9&dates=C9D1D9&sideNums=C9D1D9" alt="GitHub streak"/>
-  </a>
+  <img src="https://raw.githubusercontent.com/sbmagar13/sbmagar13/main/github-metrics.svg" alt="Metrics dashboard"/>
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sbmagar13&layout=compact&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=C9D1D9&exclude_repo=&langs_count=8&hide=html,css,scss,jupyter%20notebook" alt="Top languages"/>
+  <img src="https://raw.githubusercontent.com/sbmagar13/sbmagar13/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph"/>
+</p>
+
+<p align="center">
+  <img height="180" src="https://streak-stats.demolab.com?user=sbmagar13&hide_border=true&background=0D1117&stroke=22D3EE&ring=22D3EE&fire=A855F7&currStreakLabel=22D3EE&sideLabels=C9D1D9&currStreakNum=C9D1D9&dates=C9D1D9&sideNums=C9D1D9" alt="GitHub streak"/>
 </p>
 
 <p align="center">
@@ -140,8 +129,16 @@ stack = Stack()
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sbmagar13&theme=algolia&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="Trophies"/>
+  <a href="https://github.com/sbmagar13">
+    <img src="https://github-profile-trophy.vercel.app/?username=sbmagar13&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7&margin-w=8&margin-h=8" alt="Trophies"/>
+  </a>
 </p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sbmagar13/sbmagar13/output/github-snake-dark.svg" alt="snake contribution graph"/>
+</p>
+
+---
 
 ## Latest Writing
 
@@ -161,16 +158,16 @@ stack = Stack()
 
 ## Daily Driver
 
-| Tool        | Use case        | Platform     |
-|-------------|-----------------|--------------|
-| Warp        | Terminal        | macOS        |
-| Neovim      | Editor          | Cross-plat   |
-| Notion      | Notes / docs    | Web, desktop |
-| Bitwarden   | Passwords       | Cross-plat   |
-| Maccy       | Clipboard       | macOS        |
-| AltTab      | Window switcher | macOS        |
-| Rectangle   | Window manager  | macOS        |
-| Vimium      | Browser keys    | Chrome / FF  |
+| Tool      | Use case        | Platform     |
+|-----------|-----------------|--------------|
+| Warp      | Terminal        | macOS        |
+| Neovim    | Editor          | Cross-plat   |
+| Notion    | Notes / docs    | Web, desktop |
+| Bitwarden | Passwords       | Cross-plat   |
+| Maccy     | Clipboard       | macOS        |
+| AltTab    | Window switcher | macOS        |
+| Rectangle | Window manager  | macOS        |
+| Vimium    | Browser keys    | Chrome / FF  |
 
 ## Connect
 
@@ -180,13 +177,6 @@ stack = Stack()
   <a href="https://stackoverflow.com/users/10819100"><img src="https://img.shields.io/badge/Stack%20Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow"/></a>
   <a href="https://discord.com/users/sbmagar13"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>
   <a href="mailto:sagar@eventlogic.se"><img src="https://img.shields.io/badge/Email-A855F7?style=for-the-badge&logo=protonmail&logoColor=white" alt="Email"/></a>
-</p>
-
-<!-- Snake contribution animation. Requires the Platane/snk GitHub Action to write
-     dist/github-snake.svg into the output branch on a schedule. Setup at the
-     bottom of this README. -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sbmagar13/sbmagar13/output/github-snake-dark.svg" alt="snake contribution graph"/>
 </p>
 
 ## Support
@@ -199,10 +189,89 @@ stack = Stack()
 </p>
 
 <!-- =====================================================================
-     Snake animation setup
-     ---------------------
-     Add this workflow at .github/workflows/snake.yml in this repo:
+     WORKFLOWS TO ADD TO sbmagar13/sbmagar13/.github/workflows/
+     =====================================================================
 
+     ----------------------------------------------------------------------
+     1) metrics.yml   (lowlighter/metrics, committed to main as github-metrics.svg)
+     ----------------------------------------------------------------------
+     name: Metrics
+     on:
+       schedule: [{ cron: "0 */12 * * *" }]
+       workflow_dispatch:
+       push: { branches: ["main"] }
+     jobs:
+       github-metrics:
+         runs-on: ubuntu-latest
+         permissions:
+           contents: write
+         steps:
+           - uses: lowlighter/metrics@latest
+             with:
+               filename: github-metrics.svg
+               token: ${{ secrets.METRICS_TOKEN }}
+               user: sbmagar13
+               template: classic
+               base: header, activity, community, repositories, metadata
+               config_timezone: Asia/Kathmandu
+               config_padding: 0, 8 + 11%
+               config_animations: yes
+               # Plugins, all premium
+               plugin_isocalendar: yes
+               plugin_isocalendar_duration: full-year
+               plugin_languages: yes
+               plugin_languages_ignored: html, css, scss, jupyter notebook, dockerfile
+               plugin_languages_details: bytes-size, percentage
+               plugin_languages_indepth: yes
+               plugin_languages_limit: 8
+               plugin_habits: yes
+               plugin_habits_from: 200
+               plugin_habits_facts: yes
+               plugin_habits_charts: yes
+               plugin_achievements: yes
+               plugin_achievements_threshold: B
+               plugin_achievements_secrets: yes
+               plugin_followup: yes
+               plugin_followup_sections: repositories, user
+               plugin_topics: yes
+               plugin_topics_mode: icons
+
+     One-time setup:
+       a) Create a Personal Access Token (classic) with scopes:
+          repo, read:user, read:org
+       b) Add it as a repo secret named METRICS_TOKEN in
+          sbmagar13/sbmagar13 -> Settings -> Secrets and variables -> Actions
+       c) The action commits github-metrics.svg to main on each run.
+
+     ----------------------------------------------------------------------
+     2) 3d-contrib.yml   (yoshi389111/github-profile-3d-contrib)
+     ----------------------------------------------------------------------
+     name: 3D Contribution Graph
+     on:
+       schedule: [{ cron: "0 */12 * * *" }]
+       workflow_dispatch:
+     jobs:
+       build:
+         runs-on: ubuntu-latest
+         permissions:
+           contents: write
+         steps:
+           - uses: actions/checkout@v4
+           - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+             env:
+               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+               USERNAME: ${{ github.repository_owner }}
+           - uses: stefanzweifel/git-auto-commit-action@v5
+             with:
+               commit_message: "chore: update 3d contrib graph"
+               branch: main
+               file_pattern: profile-3d-contrib/*.svg
+
+     No PAT needed, uses the built-in GITHUB_TOKEN.
+
+     ----------------------------------------------------------------------
+     3) snake.yml   (already added by you, for reference)
+     ----------------------------------------------------------------------
      name: Generate Snake
      on:
        schedule: [{ cron: "0 */12 * * *" }]
@@ -222,4 +291,5 @@ stack = Stack()
                build_dir: dist
              env:
                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-     ===================================================================== -->
+
+     ====================================================================== -->
