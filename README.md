@@ -1,230 +1,225 @@
-<!-- Header Banner -->
+<!-- =====================================================================
+     Sagar Budhathoki  ·  GitHub Profile README  ·  Premium pass
+     Palette: cyan #22D3EE  +  violet #A855F7  on GitHub dark #0D1117
+     Style:   restrained, consistent, signature pieces kept
+     ===================================================================== -->
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=egg&color=timeGradient&height=200&section=header&text=Sagar%20Budhathoki&fontSize=50&fontAlignY=50&animation=twinkling&fontColor=ffffff" alt="header banner" />
+  <img
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=30&pause=1000&color=22D3EE&center=true&vCenter=true&width=900&height=70&lines=Sagar+Budhathoki;DevOps+%2F+SRE+%C2%B7+Cloud+Native+%C2%B7+AI+for+Ops;Python+%C2%B7+Terraform+%C2%B7+Kubernetes+%C2%B7+AWS;Building+from+Kathmandu%2C+shipping+globally"
+    alt="Sagar Budhathoki, DevOps and SRE"
+  />
 </p>
 
-<!-- Dynamic Typing SVG -->
-<!-- Terminal-style Animated Banner -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=22223B&vCenter=true&center=true&width=750&lines=%24+whoami+Sagar+Budhathoki;DevOps+%E2%9A%99%EF%B8%8F+%7C+Cloud+Native+%7C+Automation+Ninja;Building+with+Python%2C+Cloud%2C+AI+%F0%9F%A7%BF" alt="Typing SVG" />
-</p>
-
-
-<!-- <div align="center">
-  <table align="center">
-    <tr>
-      <td align="right">Visitors Count:</td>
-      <td align="left"><img src="https://profile-counter.glitch.me/sbmagar13/count.svg" alt="Visitor Count" /></td>
-    </tr>
-  </table>
-</div>
--->
-<!-- Quick Links -->
-<p align="center">
-  <a href="https://blog.budhathokisagar.com.np">
-    <img src="https://img.shields.io/badge/Blog-Visit%20My%20Blog-blue?style=for-the-badge&logo=hashnode" alt="Blog" />
+  <a href="https://sagarbudhathoki.com">
+    <img src="https://img.shields.io/badge/portfolio-sagarbudhathoki.com-22D3EE?style=flat-square&logo=vercel&logoColor=white" alt="portfolio"/>
   </a>
-  <a href="https://github.com/sbmagar13/sbmagar13/issues">
-    <img src="https://img.shields.io/badge/Ask%20Me-Anything-1abc9c?style=for-the-badge&logo=github" alt="Ask Me Anything" />
+  <a href="https://blog.budhathokisagar.com.np">
+    <img src="https://img.shields.io/badge/blog-read-2962FF?style=flat-square&logo=hashnode&logoColor=white" alt="blog"/>
   </a>
   <a href="https://linkedin.com/in/sbmagar13">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/linkedin-connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="linkedin"/>
   </a>
+  <a href="mailto:sagar@eventlogic.se">
+    <img src="https://img.shields.io/badge/email-reach%20out-A855F7?style=flat-square&logo=protonmail&logoColor=white" alt="email"/>
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=sbmagar13&style=flat-square&color=22D3EE&label=visitors" alt="visitors"/>
 </p>
 
-## 🚀 About Me
+---
 
-> DevOps Engineer passionate about automation, cloud infrastructure, and continuous learning.
+## About
 
-- 💼 DevOps Engineer at [EventLogic](http://eventlogic.se/)
-- 🌱 Currently exploring **Cloud Native, Kubernetes, and Pulumi**
-- 🛠️ Experienced in **CI/CD automation, container orchestration, and Infrastructure as Code**
-- 📊 Building robust solutions with **AWS, Terraform, and Docker**
-- 🤖 Experienced in **prompt engineering, and building AI-powered applications**
-- 🐧 Linux enthusiast with experience across **Arch Linux, Ubuntu, and CentOS**
-- 🎓 Self-taught developer with a passion for sharing knowledge
-- 🌍 Based in Nepal, working globally
+DevOps and SRE engineer with **5+ years** running cloud platforms in production. I care about the boring parts of infrastructure: reliability, automation, blast radius, the post-mortem you never have to write.
 
-<!-- GitAds-Verify: JKBX57PM4P6M9WKLZ2IH5ZMHSO5RZ14O -->
+- **Now**: DevOps at [EventLogic](https://eventlogic.se), on AWS, Kubernetes, Terraform.
+- **Building**: AI agents for ops workflows, Terraform / Terragrunt modules, side projects that teach me one new thing each.
+- **Learning**: Kubernetes operators, Go for control planes, agentic systems for incident response.
+- **Based in** Kathmandu, Nepal. Comfortable across timezones.
 
-## 🔧 Tech Stack
+## Tech Stack
 
 ```python
-from dataclasses import asdict, dataclass
-import json
+from dataclasses import dataclass
 
-@dataclass
+@dataclass(frozen=True)
 class Stack:
-    languages         : tuple[str, ...] = ("Python", "C/C++", "JavaScript")
-    cloud             : tuple[str, ...] = ("AWS", "Heroku")
-    technologies      : tuple[str, ...] = ("Docker", "Kubernetes", "Terraform", "AWS CDK (Python)")
-    databases         : tuple[str, ...] = ("PostgreSQL", "AWS RDS")
-    cicd              : tuple[str, ...] = ("GitLab CI", "Jenkins", "GitHub Actions", "AWS CodePipeline")
-    aiml              : tuple[str, ...] = ("PyTorch", "Keras", "Hugging Face", "LangChain", "MLOps", "OpenAI", "LLM Engineering")
-    operating_systems : tuple[str, ...] = ("Arch Linux", "Ubuntu", "CentOS", "Manjaro", "Windows", "macOS")
-    misc_tools        : tuple[str, ...] = ("FFmpeg/LIVE555", "Matplotlib", "BeautifulSoup", "Socket.IO", "Selenium", "Scrapy")
-    ongoing_learning  : tuple[str, ...] = ("AWS/DevOps", "Kubernetes", "AI MCP", "AI-Agent(LangChain, LangGraph)", "Ansible", "Cloud Native", "Go Language")
-
-    def serialize(self):
-        return json.dumps(asdict(self), indent=4)
+    languages    = ("Python", "Go", "TypeScript", "Bash", "C/C++")
+    cloud        = ("AWS", "GCP")
+    iac          = ("Terraform", "Terragrunt", "Pulumi", "AWS CDK")
+    runtime      = ("Docker", "Kubernetes", "EKS", "ECS")
+    cicd         = ("GitHub Actions", "GitLab CI", "Jenkins", "CodePipeline")
+    data         = ("PostgreSQL", "RDS", "Aurora", "Redis")
+    observability= ("Prometheus", "Grafana", "CloudWatch", "OpenTelemetry")
+    ai           = ("OpenAI", "Anthropic", "LangChain", "LangGraph", "MLOps")
+    os           = ("Arch Linux", "Ubuntu", "macOS")
+    learning     = ("K8s operators", "Go control planes", "AI agents for DevOps")
 
 stack = Stack()
-print(stack.serialize())
 ```
 
 <div align="center">
   <table>
     <tr>
       <td align="center" width="50%">
-        <img width="300" src="https://github.com/sbmagar13/sbmagar13/blob/main/devcard.png" alt="Dev Card" />
+        <img width="320" src="https://github.com/sbmagar13/sbmagar13/blob/main/devcard.png" alt="Dev Card"/>
       </td>
       <td align="center" width="50%">
         <a href="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=qzb6mxppi1qt8o50cgkrbyw4v&redirect=true">
-          <img src="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=qzb6mxppi1qt8o50cgkrbyw4v&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&bar_color_cover=true" width="300" alt="Spotify Profile"/>
+          <img width="320" src="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=qzb6mxppi1qt8o50cgkrbyw4v&cover_image=true&theme=default&show_offline=true&background_color=0d1117&interchange=true&bar_color_cover=true" alt="Now playing"/>
         </a>
       </td>
     </tr>
   </table>
 </div>
 
-### 💻 Languages
+### Languages
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash"/>
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
 </p>
 
-### ☁️ Cloud & DevOps
+### Cloud & Infrastructure
 <p>
-  <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
-  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/gitlab%20ci-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab CI" />
-  <img src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins" />
-  <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku" />
+  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS"/>
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"/>
+  <img src="https://img.shields.io/badge/Terragrunt-2D9EE0?style=for-the-badge&logo=gruntfunding&logoColor=white" alt="Terragrunt"/>
+  <img src="https://img.shields.io/badge/Pulumi-8A3391?style=for-the-badge&logo=pulumi&logoColor=white" alt="Pulumi"/>
+  <img src="https://img.shields.io/badge/Docker-0DB7ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
+  <img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white" alt="Helm"/>
 </p>
 
-### 🛢 Databases & Tools
+### CI/CD & Delivery
 <p>
-  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Amazon%20RDS-527FFF?style=for-the-badge&logo=amazon-rds&logoColor=white" alt="AWS RDS" />
-  <img src="https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
-  <img src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
-  <img src="https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white" alt="Neovim" />
-  <img src="https://img.shields.io/badge/-ElasticSearch-005571?style=for-the-badge&logo=elasticsearch" alt="ElasticSearch" />
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2671E5?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
+  <img src="https://img.shields.io/badge/GitLab%20CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab CI"/>
+  <img src="https://img.shields.io/badge/Jenkins-2C5263?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins"/>
+  <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white" alt="ArgoCD"/>
 </p>
 
-### 🧠 AI/ML & Data Science
+### Data & Observability
 <p>
-  <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white" alt="Keras" />
-  <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn" />
-  <img src="https://img.shields.io/badge/Hugging%20Face-%23FFD21E.svg?style=for-the-badge" alt="Hugging Face" />
-  <img src="https://img.shields.io/badge/LangChain-%2300A3E0.svg?style=for-the-badge" alt="LangChain" />
-  <img src="https://img.shields.io/badge/MLOps-%23025E8C.svg?style=for-the-badge" alt="MLOps" />
-  <img src="https://img.shields.io/badge/Weights%20%26%20Biases-%23FFBE00.svg?style=for-the-badge&logo=weightsandbiases&logoColor=black" alt="Weights & Biases" />
-  <img src="https://img.shields.io/badge/Pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/NumPy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Matplotlib-%23F37626.svg?style=for-the-badge" alt="Matplotlib" />
-  <img src="https://img.shields.io/badge/OpenAI-%23412991.svg?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
-  <img src="https://img.shields.io/badge/LLM%20Engineering-%23FF6F61.svg?style=for-the-badge" alt="LLM Engineering" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/AWS%20RDS-527FFF?style=for-the-badge&logo=amazon-rds&logoColor=white" alt="RDS"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus"/>
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana"/>
+  <img src="https://img.shields.io/badge/OpenTelemetry-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" alt="OpenTelemetry"/>
 </p>
 
-### 💻 Operating Systems
+### AI & Agentic Systems
 <p>
-  <img src="https://img.shields.io/badge/Arch%20Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" alt="Arch Linux" />
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu" />
-  <img src="https://img.shields.io/badge/CentOS-262577?style=for-the-badge&logo=CentOS&logoColor=white" alt="CentOS" />
-  <img src="https://img.shields.io/badge/Manjaro-35BF5C?style=for-the-badge&logo=Manjaro&logoColor=white" alt="Manjaro" />
-  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
-  <img src="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0" alt="macOS" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
+  <img src="https://img.shields.io/badge/Anthropic-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Anthropic"/>
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
+  <img src="https://img.shields.io/badge/LangGraph-FF6F61?style=for-the-badge" alt="LangGraph"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logoColor=black" alt="Hugging Face"/>
 </p>
 
-### 🛠️ Personal Productivity Kit
-
-| Tool         | Use Case          | OS           | Favorite? |
-|--------------|-------------------|--------------|-----------|
-| Warp/iTerm2  | Terminal          | macOS        | ⭐️⭐️⭐️⭐️⭐️ |
-| Notion       | Notes/Docs        | Web, Desktop | ⭐️⭐️⭐️⭐️⭐️ |
-| Bitwarden    | Password Manager  | Cross-plat   | ⭐️⭐️⭐️⭐️⭐️ |
-| Maccy        | Clipboard         | macOS        | ⭐️⭐️⭐️⭐️⭐️ |
-| AltTab       | Window Switcher   | macOS        | ⭐️⭐️⭐️⭐️⭐️ |
-| Rectangle    | Window Manager    | macOS        | ⭐️⭐️⭐️⭐️⭐️ |
-| Vimium       | Browser Shortcuts | Chrome/FF    | ⭐️⭐️⭐️⭐️⭐️ |
-
-
-## Sponsored
-[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=sbmagar13/sbmagar13@github)](https://gitads.dev/v1/ad-track?source=sbmagar13/sbmagar13@github)
-
-
-## 🌐 Connect With Me
+## GitHub Stats
 
 <p align="center">
-  <a href="https://twitter.com/s_agarm_agar" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" alt="Twitter" />
-  </a>
-  <a href="https://linkedin.com/in/sbmagar13" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://stackoverflow.com/users/10819100" target="_blank">
-    <img src="https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow" />
-  </a>
-  <a href="https://facebook.com/sbmagar13" target="_blank">
-    <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" alt="Facebook" />
-  </a>
-  <a href="https://instagram.com/sbmagar13" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram" />
-  </a>
-  <a href="https://discord.com/users/sbmagar13" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  <a href="https://github.com/sbmagar13">
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=sbmagar13&show_icons=true&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=A855F7&text_color=C9D1D9&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub stats"/>
+    <img height="170" src="https://streak-stats.demolab.com?user=sbmagar13&hide_border=true&background=0D1117&stroke=22D3EE&ring=22D3EE&fire=A855F7&currStreakLabel=22D3EE&sideLabels=C9D1D9&currStreakNum=C9D1D9&dates=C9D1D9&sideNums=C9D1D9" alt="GitHub streak"/>
   </a>
 </p>
 
-## 📝 Latest Blog Posts
+<p align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sbmagar13&layout=compact&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=C9D1D9&exclude_repo=&langs_count=8&hide=html,css,scss,jupyter%20notebook" alt="Top languages"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sbmagar13&bg_color=0D1117&color=22D3EE&line=A855F7&point=FFFFFF&area=true&hide_border=true" alt="Activity graph"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=sbmagar13&theme=algolia&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="Trophies"/>
+</p>
+
+## Latest Writing
 
 <!-- BLOG-POST-LIST:START -->
-- [I Built an MCP Server for Hashnode](https://blog.budhathokisagar.com.np/mcp-server-for-hashnode)
 - [Terraform CLI Tips and Cheatsheets](https://blog.budhathokisagar.com.np/terraform-cli-tips-and-cheatsheets)
 - [Linting The Docker Image With Dockle](https://blog.budhathokisagar.com.np/linting-the-docker-image-with-dockle)
-- [Install MongoDB on EC2 Instance — Solved Connection Issue From Public DNS](https://blog.budhathokisagar.com.np/install-mongodb-on-ec2-instance-solved-connection-issue-from-public-dns)
+- [Install MongoDB on EC2: Solving the Public DNS Connection Issue](https://blog.budhathokisagar.com.np/install-mongodb-on-ec2-instance-solved-connection-issue-from-public-dns)
 - [ElasticSearch on AWS EC2 using Terraform](https://blog.budhathokisagar.com.np/elasticsearch-on-aws-ec2-using-terraform)
-- [Docker For Beginners: Learning Notes](https://blog.budhathokisagar.com.np/docker-for-beginners-cheatsheet)
+- [Docker for Beginners: Learning Notes](https://blog.budhathokisagar.com.np/docker-for-beginners-cheatsheet)
 <!-- BLOG-POST-LIST:END -->
 
 <p align="center">
   <a href="https://blog.budhathokisagar.com.np">
-    <img src="https://img.shields.io/badge/Read%20More-Visit%20My%20Blog-blue?style=for-the-badge&logo=hashnode" alt="Read More" />
+    <img src="https://img.shields.io/badge/read%20more-blog.budhathokisagar.com.np-22D3EE?style=flat-square&logo=hashnode&logoColor=white" alt="Read more"/>
   </a>
 </p>
 
-## 🔄 Recent GitHub Activities
+## Daily Driver
 
-<!--START_SECTION:activity-->
-1. 🎉 Merged PR [#38](https://github.com/sbmagar13/sbmagar13.github.io/pull/38) in [sbmagar13/sbmagar13.github.io](https://github.com/sbmagar13/sbmagar13.github.io)
-<!--END_SECTION:activity-->
+| Tool        | Use case        | Platform     |
+|-------------|-----------------|--------------|
+| Warp        | Terminal        | macOS        |
+| Neovim      | Editor          | Cross-plat   |
+| Notion      | Notes / docs    | Web, desktop |
+| Bitwarden   | Passwords       | Cross-plat   |
+| Maccy       | Clipboard       | macOS        |
+| AltTab      | Window switcher | macOS        |
+| Rectangle   | Window manager  | macOS        |
+| Vimium      | Browser keys    | Chrome / FF  |
 
-## Sponsored
-[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=sbmagar13/sbmagar13@github)](https://gitads.dev/v1/ad-track?source=sbmagar13/sbmagar13@github)
+## Connect
+
+<p align="center">
+  <a href="https://linkedin.com/in/sbmagar13"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://twitter.com/s_agarm_agar"><img src="https://img.shields.io/badge/X%20%2F%20Twitter-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
+  <a href="https://stackoverflow.com/users/10819100"><img src="https://img.shields.io/badge/Stack%20Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow"/></a>
+  <a href="https://discord.com/users/sbmagar13"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>
+  <a href="mailto:sagar@eventlogic.se"><img src="https://img.shields.io/badge/Email-A855F7?style=for-the-badge&logo=protonmail&logoColor=white" alt="Email"/></a>
+</p>
+
+<!-- Snake contribution animation. Requires the Platane/snk GitHub Action to write
+     dist/github-snake.svg into the output branch on a schedule. Setup at the
+     bottom of this README. -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sbmagar13/sbmagar13/output/github-snake-dark.svg" alt="snake contribution graph"/>
+</p>
 
 ## Support
-<div>
-  <p align="center" class="support-text">If my repos saved you a headache or you just find them interesting, consider buying me a momo please 😁 - the Nepali developer's fuel! 🥟</p>
 
-  <div align="center">
-    <a href="https://buymemomo.com/sbmagar13" target="_blank" rel="noreferrer">
-      <img
-        src="https://buymemomo.com/logo.png"
-        alt="buy me momo" />
-    </a>
-  </div>
-</div>
-
-
-<!-- Footer -->
+<p align="center">If a repo here saved you a debugging session, buy me a momo (the Nepali dev fuel).</p>
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="footer" />
+  <a href="https://buymemomo.com/sbmagar13" target="_blank" rel="noreferrer">
+    <img height="48" src="https://buymemomo.com/logo.png" alt="buy me momo"/>
+  </a>
 </p>
+
+<!-- =====================================================================
+     Snake animation setup
+     ---------------------
+     Add this workflow at .github/workflows/snake.yml in this repo:
+
+     name: Generate Snake
+     on:
+       schedule: [{ cron: "0 */12 * * *" }]
+       workflow_dispatch:
+     jobs:
+       generate:
+         runs-on: ubuntu-latest
+         steps:
+           - uses: Platane/snk/svg-only@v3
+             with:
+               github_user_name: sbmagar13
+               outputs: |
+                 dist/github-snake-dark.svg?palette=github-dark&color_snake=22D3EE&color_dots=161B22,A855F7,22D3EE,FFFFFF,FFFFFF
+           - uses: crazy-max/ghaction-github-pages@v3
+             with:
+               target_branch: output
+               build_dir: dist
+             env:
+               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+     ===================================================================== -->
