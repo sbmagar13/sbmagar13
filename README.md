@@ -1,8 +1,10 @@
 <!-- =====================================================================
-     Sagar Budhathoki  ·  GitHub Profile README  ·  Premium v2
-     Palette: cyan #22D3EE  +  violet #A855F7  on GitHub dark #0D1117
-     Strategy: lean on committed SVGs from GitHub Actions, not rented
-     Vercel proxies. Setup workflows at the bottom of this file.
+     Sagar Budhathoki  ·  GitHub Profile README  ·  Premium v3
+     Strategy: ship only widgets that render reliably right now.
+                Streak + activity graph + snake. No Vercel cards that
+                rate-limit. lowlighter/metrics + 3D contrib live at the
+                bottom as OPTIONAL upgrades (commented out).
+     Palette:  cyan #22D3EE  +  violet #A855F7  on GitHub dark #0D1117
      ===================================================================== -->
 
 <p align="center">
@@ -101,24 +103,14 @@ stack = Stack()
 
 ---
 
-## GitHub at a Glance
-
-<!--
-  This whole block is rendered from SVGs committed by GitHub Actions in this
-  repo. They render even if Vercel proxies are rate-limited. Setup workflows
-  are at the bottom of this file.
-
-  If you have not set up the actions yet, the first three images below will
-  404. Comment out this section until the first runs land.
--->
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sbmagar13/sbmagar13/main/github-metrics.svg" alt="Metrics dashboard"/>
+  <img src="https://raw.githubusercontent.com/sbmagar13/sbmagar13/main/github-metrics.svg" alt="Metrics"/>
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sbmagar13/sbmagar13/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contributions"/>
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sbmagar13/sbmagar13/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph"/>
-</p>
+## GitHub Activity
 
 <p align="center">
   <img height="180" src="https://streak-stats.demolab.com?user=sbmagar13&hide_border=true&background=0D1117&stroke=22D3EE&ring=22D3EE&fire=A855F7&currStreakLabel=22D3EE&sideLabels=C9D1D9&currStreakNum=C9D1D9&dates=C9D1D9&sideNums=C9D1D9" alt="GitHub streak"/>
@@ -129,13 +121,11 @@ stack = Stack()
 </p>
 
 <p align="center">
-  <a href="https://github.com/sbmagar13">
-    <img src="https://github-profile-trophy.vercel.app/?username=sbmagar13&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7&margin-w=8&margin-h=8" alt="Trophies"/>
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sbmagar13/sbmagar13/output/github-snake-dark.svg" alt="snake contribution graph"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sbmagar13/sbmagar13/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sbmagar13/sbmagar13/output/github-snake.svg"/>
+    <img alt="snake contribution graph" src="https://raw.githubusercontent.com/sbmagar13/sbmagar13/output/github-snake.svg"/>
+  </picture>
 </p>
 
 ---
@@ -189,12 +179,59 @@ stack = Stack()
 </p>
 
 <!-- =====================================================================
-     WORKFLOWS TO ADD TO sbmagar13/sbmagar13/.github/workflows/
-     =====================================================================
+     UPDATED SNAKE WORKFLOW
+     Replace .github/workflows/snake.yml in sbmagar13/sbmagar13 with this.
+     The colors are wrong in your current run because the previous version
+     omitted the # prefix on hex codes. This version generates BOTH a light
+     and a dark snake so the README's <picture> element can swap by theme.
+     ---------------------------------------------------------------------
 
-     ----------------------------------------------------------------------
-     1) metrics.yml   (lowlighter/metrics, committed to main as github-metrics.svg)
-     ----------------------------------------------------------------------
+     name: Generate Snake
+     on:
+       schedule: [{ cron: "0 */12 * * *" }]
+       workflow_dispatch:
+       push: { branches: ["main"] }
+     jobs:
+       generate:
+         runs-on: ubuntu-latest
+         steps:
+           - uses: Platane/snk/svg-only@v3
+             with:
+               github_user_name: sbmagar13
+               outputs: |
+                 dist/github-snake.svg?color_snake=%23a855f7&color_dots=%23ebedf0,%23a5f3fc,%2367e8f9,%2322d3ee,%230891b2
+                 dist/github-snake-dark.svg?palette=github-dark&color_snake=%2322d3ee&color_dots=%230d1117,%230c4a6e,%230e7490,%2322d3ee,%23a855f7
+           - uses: crazy-max/ghaction-github-pages@v3
+             with:
+               target_branch: output
+               build_dir: dist
+             env:
+               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+     Notes:
+       - # is URL-encoded as %23 so the URL parser sees a real hash for
+         each hex color. The previous file dropped the # entirely, which
+         is why the snake came out black on a white background.
+       - The light variant uses a cyan dot ramp (matches GitHub's empty
+         square shade #ebedf0) with a violet snake.
+       - The dark variant uses a violet-and-cyan ramp on near-black with
+         a cyan snake.
+       - Trigger a manual run from the Actions tab after committing this
+         file to regenerate the SVG without waiting 12h.
+
+     ====================================================================
+     OPTIONAL UPGRADE 1  ·  lowlighter/metrics
+     One large premium SVG with isometric calendar, language breakdown,
+     habits (when you commit), achievements, follow-up stats.
+     ====================================================================
+
+     Setup:
+       a) Create a Personal Access Token (classic) with scopes:
+          repo, read:user, read:org
+       b) Add it as a repo secret named METRICS_TOKEN in
+          sbmagar13/sbmagar13  ->  Settings  ->  Secrets  ->  Actions
+       c) Create .github/workflows/metrics.yml with:
+
      name: Metrics
      on:
        schedule: [{ cron: "0 */12 * * *" }]
@@ -216,7 +253,6 @@ stack = Stack()
                config_timezone: Asia/Kathmandu
                config_padding: 0, 8 + 11%
                config_animations: yes
-               # Plugins, all premium
                plugin_isocalendar: yes
                plugin_isocalendar_duration: full-year
                plugin_languages: yes
@@ -230,22 +266,18 @@ stack = Stack()
                plugin_habits_charts: yes
                plugin_achievements: yes
                plugin_achievements_threshold: B
-               plugin_achievements_secrets: yes
                plugin_followup: yes
-               plugin_followup_sections: repositories, user
-               plugin_topics: yes
-               plugin_topics_mode: icons
 
-     One-time setup:
-       a) Create a Personal Access Token (classic) with scopes:
-          repo, read:user, read:org
-       b) Add it as a repo secret named METRICS_TOKEN in
-          sbmagar13/sbmagar13 -> Settings -> Secrets and variables -> Actions
-       c) The action commits github-metrics.svg to main on each run.
+     Then add this above the "GitHub Activity" section heading:
+       <p align="center">
+         <img src="https://raw.githubusercontent.com/sbmagar13/sbmagar13/main/github-metrics.svg" alt="Metrics"/>
+       </p>
 
-     ----------------------------------------------------------------------
-     2) 3d-contrib.yml   (yoshi389111/github-profile-3d-contrib)
-     ----------------------------------------------------------------------
+     ====================================================================
+     OPTIONAL UPGRADE 2  ·  yoshi389111/github-profile-3d-contrib
+     A 3D isometric contribution calendar. No PAT needed.
+     ====================================================================
+
      name: 3D Contribution Graph
      on:
        schedule: [{ cron: "0 */12 * * *" }]
@@ -267,29 +299,9 @@ stack = Stack()
                branch: main
                file_pattern: profile-3d-contrib/*.svg
 
-     No PAT needed, uses the built-in GITHUB_TOKEN.
-
-     ----------------------------------------------------------------------
-     3) snake.yml   (already added by you, for reference)
-     ----------------------------------------------------------------------
-     name: Generate Snake
-     on:
-       schedule: [{ cron: "0 */12 * * *" }]
-       workflow_dispatch:
-     jobs:
-       generate:
-         runs-on: ubuntu-latest
-         steps:
-           - uses: Platane/snk/svg-only@v3
-             with:
-               github_user_name: sbmagar13
-               outputs: |
-                 dist/github-snake-dark.svg?palette=github-dark&color_snake=22D3EE&color_dots=161B22,A855F7,22D3EE,FFFFFF,FFFFFF
-           - uses: crazy-max/ghaction-github-pages@v3
-             with:
-               target_branch: output
-               build_dir: dist
-             env:
-               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+     Then add this in the "GitHub Activity" section:
+       <p align="center">
+         <img src="https://raw.githubusercontent.com/sbmagar13/sbmagar13/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contributions"/>
+       </p>
 
      ====================================================================== -->
