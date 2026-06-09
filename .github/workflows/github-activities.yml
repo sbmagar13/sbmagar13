@@ -1,5 +1,4 @@
 name: Github Activities
-
 on:
   schedule:
     # Runs every 30 minutes

@@ -1,20 +1,20 @@
 name: 3D Contribution Graph
-     on:
-       schedule: [{ cron: "0 */12 * * *" }]
-       workflow_dispatch:
-     jobs:
-       build:
-         runs-on: ubuntu-latest
-         permissions:
-           contents: write
-         steps:
-           - uses: actions/checkout@v4
-           - uses: yoshi389111/github-profile-3d-contrib@0.7.1
-             env:
-               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-               USERNAME: ${{ github.repository_owner }}
-           - uses: stefanzweifel/git-auto-commit-action@v5
-             with:
-               commit_message: "chore: update 3d contrib graph"
-               branch: main
-               file_pattern: profile-3d-contrib/*.svg
+on:
+  schedule: [{ cron: "0 */12 * * *" }]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update 3d contrib graph"
+          branch: main
+          file_pattern: profile-3d-contrib/*.svg
