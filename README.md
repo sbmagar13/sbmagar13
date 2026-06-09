@@ -97,6 +97,14 @@ stack = Stack()
 ## GitHub Activity
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/sbmagar13/sbmagar13/main/github-metrics.svg" alt="GitHub metrics dashboard"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sbmagar13/sbmagar13/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph"/>
+</p>
+
+<p align="center">
   <img height="180" src="https://streak-stats.demolab.com?user=sbmagar13&hide_border=true&background=0D1117&stroke=22D3EE&ring=22D3EE&fire=A855F7&currStreakLabel=22D3EE&sideLabels=C9D1D9&currStreakNum=C9D1D9&dates=C9D1D9&sideNums=C9D1D9" alt="GitHub streak"/>
 </p>
 
