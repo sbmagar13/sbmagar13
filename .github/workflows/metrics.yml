@@ -19,7 +19,6 @@ jobs:
           config_timezone: Asia/Kathmandu
           config_padding: 0, 8 + 11%
           config_animations: yes
-          # Plugins, all premium
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_languages: yes
@@ -33,8 +32,4 @@ jobs:
           plugin_habits_charts: yes
           plugin_achievements: yes
           plugin_achievements_threshold: B
-          plugin_achievements_secrets: yes
           plugin_followup: yes
-          plugin_followup_sections: repositories, user
-          plugin_topics: yes
-          plugin_topics_mode: icons
