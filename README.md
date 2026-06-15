@@ -96,9 +96,9 @@ stack = Stack()
 
 ## GitHub Activity
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://raw.githubusercontent.com/sbmagar13/sbmagar13/main/github-metrics.svg" alt="GitHub metrics dashboard"/>
-</p>
+</p> -->
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/sbmagar13/sbmagar13/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph"/>
