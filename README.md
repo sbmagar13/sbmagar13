@@ -166,6 +166,13 @@ stack = Stack()
 <p align="center">If a repo here saved you a debugging session, buy me a momo (the Nepali dev fuel).</p>
 <p align="center">
   <a href="https://buymemomo.com/sbmagar13" target="_blank" rel="noreferrer">
-    <img height="48" src="https://buymemomo.com/logo.png" alt="buy me momo"/>
+    <img height="100" src="https://buymemomo.com/logo.png" alt="buy me momo"/>
   </a>
+</br>
+  <align="center">OR
+  <div align="center">
+    <a href="https://www.buymeacoffee.com/sbmagar13" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height: 60px !important;width: 217px !important;" >
+    </a>
+  </div>
 </p>
+
